@@ -10,6 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //I forgot to add notes in my first submission because the text already reminded me of what was happenning. I read the requirement and realized notes with "//" were probably a requirement.
+
             String studio;
             String title;
             int score;
@@ -56,7 +58,7 @@ namespace ConsoleApp1
 
             Console.ReadKey(true);
 
-            lives = lives + oneup;
+            lives = lives + oneup; //player gets an extra life
             
             Console.WriteLine("" + "");
 
@@ -79,7 +81,7 @@ namespace ConsoleApp1
 
             Console.ReadKey(true);
 
-            shield = shield - goblin_sdam;
+            shield = shield - goblin_sdam; //player's shield gets damaged by the specific type of creature
 
             Console.WriteLine("" + "");
 
@@ -102,7 +104,7 @@ namespace ConsoleApp1
 
             Console.ReadKey(true);
 
-            health=health - goblin_hdam;
+            health=health - goblin_hdam; //player gets hurt by the specific type of creature
 
             Console.WriteLine("" + "");
             
@@ -125,7 +127,7 @@ namespace ConsoleApp1
 
             Console.ReadKey(true);
 
-            score = score + goblin_score;
+            score = score + goblin_score; //player gets score based on the creature type
 
             Console.WriteLine("" + "");
 
@@ -148,7 +150,7 @@ namespace ConsoleApp1
 
             Console.ReadKey(true);
 
-            score = score * score_mp;
+            score = score * score_mp; //score being multiplied
 
             Console.WriteLine("Lives " + lives);
 
